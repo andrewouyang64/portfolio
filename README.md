@@ -1,7 +1,8 @@
-## Andrew O's Portfoilo ##
+## Andrew Ouyang's Portfoilo ##
 
-== Useing CSS positioning, flexbox, hover property and media query to design
+--Using CSS positioning, flexbox, hover property and media query to design
 a better user experience webpage.
-== The projects are not available to linked at this stage
-== Details of "About me" would be updated in future
-== Resume, Twitter and Linkedin would be updated later when available
+
+--The first project is now availabe for viewing by clicking the link.
+
+--All other parts of the portfolio have been updated.

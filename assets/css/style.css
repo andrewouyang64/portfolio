@@ -145,18 +145,23 @@ nav {
 }
 
 .first-project img {
-    height: 270px;
+    height: 280px;
 }
 
-.project-content h2 {
+.project-content a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
     font-size: 25px;
     color: cyan;
     max-width: fit-content;
+
 }
 
-.project-content h2:hover {
-    color: coral;
+.project-content a:hover {
+    background-color: rgb(37, 99, 207);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
     cursor: pointer;
 }
 
@@ -232,11 +237,12 @@ footer h3 {
 
 @media (max-width: 576px) {
     .header {
-        background-color: rgb(56, 56, 92);
+        background-color: black
     }
 
     .header h1 {
         font-size: 17px;
+        color: aqua;
 
     }
     .andrew h2 {
@@ -254,7 +260,7 @@ footer h3 {
         font-size: 13px;
     }
 
-    .project-content h2 {
+    .project-content a {
         font-size: 17px;
     }
 
