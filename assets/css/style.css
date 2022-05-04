@@ -17,11 +17,13 @@ body {
     border-width: 1px;
     border-color: coral;
     margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 40px;
     color: aqua;
     border: 5px coral;
 }
@@ -30,7 +32,8 @@ body {
 nav {
     margin-right: 15px;
     margin-left: 25px;
-    padding-top: 15px;
+    display: flex;
+    align-items: center;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -76,7 +79,6 @@ nav {
 .andrew h2 {
     font-size: 25px;
     color: coral;
-    margin-left: 30px;
     margin-top: 50px;
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -212,6 +214,9 @@ footer h3 {
     }
     .harder li {
         font-size: 16px;
+    }
+    .header li a {
+        font-size: 18px;
     }
     .footer li {
         font-size: 16px;
