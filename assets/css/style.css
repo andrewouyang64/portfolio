@@ -202,11 +202,14 @@ footer h3 {
     margin-left: 25px;
 }
 
-.footer a {
+.footer a{
     color: aqua;
     text-decoration: none;
 }
 
+.footer a:hover {
+    color: whitesmoke;
+}
 @media (max-width: 768px) {
     .header {
         background-color: black
