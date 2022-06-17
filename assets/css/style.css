@@ -7,31 +7,35 @@
 
 body {
     background-color: black;
+    
 }
 
 .header {
-    padding: 20px;
+    
+    padding: 1.25rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.125rem;
     border-color: coral;
-    margin-top: 5px;
+    margin-top: 0.315rem;
     display: flex;
     justify-content: space-between;
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 40px;
+    /*font-size: 40px;*/
+    font-size: 2.5rem;
     color: aqua;
-    border: 5px coral;
+    /*border: 5px coral;*/
+    border: 0.315em;
 }
 
 
 nav {
-    margin-right: 15px;
-    margin-left: 25px;
+    margin-right: 0.94rem;
+    margin-left: 1.56rem;
     display: flex;
     align-items: center;
     float: right;
@@ -41,8 +45,8 @@ nav {
 
 .header li {
     display: inline-block;
-    font-size: 20px;
-    margin-left: 25px;
+    font-size: 1.25rem;
+    margin-left: 1.56rem;
 }
 
 .header a {
@@ -172,34 +176,38 @@ nav {
 }
 
 .footer {
-    padding: 20px;
+    padding: 1.25rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
-    border-width: 1px;
+    border-width: 0.125rem;
     border-color:  aqua;
     border-style: solid;
+    display: flex;
+    justify-content: space-between;
     
 }
 
 footer h3 {
-    font-size: 25px;
+    font-size: 1.56rem;
     display: inline-block;
     color: #ffffff;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .footer nav {
-    margin-right: 20px;
-    margin-left: 25px;
-    padding-top: 5px;
+    margin-right: 1.25rem;
+    margin-left: 1.56rem;
+    padding-top: 0.315rem;
+    display: flex;
+    align-items: center;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer li {
     display: inline-block;
-    font-size: 20px;
-    margin-left: 25px;
+    font-size: 1.25rem;
+    margin-left: 1.56rem;
 }
 
 .footer a{
@@ -216,10 +224,10 @@ footer h3 {
     }
     
     .header h1 {
-        font-size: 25px;
+        /*font-size: 25px;*/
         color: lightskyblue
     }
-    .harder li {
+    /*.harder li {
         font-size: 16px;
     }
     .header li a {
@@ -227,7 +235,7 @@ footer h3 {
     }
     .footer li {
         font-size: 16px;
-    }
+    }*/
     
     .project-content {
         flex-direction: column;
@@ -253,7 +261,7 @@ footer h3 {
     }
 
     .header h1 {
-        font-size: 17px;
+        /*font-size: 17px;*/
         color: aqua;
 
     }
@@ -264,30 +272,30 @@ footer h3 {
     .works h1 {
         font-size: 17px;
     }
-    .header li {
+    /*.header li {
         font-size: 13px;
         margin-left: 5px;
-    }
-    .footer li {
+    }*/
+    /*.footer li {
         font-size: 13px;
-    }
+    }*/
 
     .project-content a {
         font-size: 17px;
     }
 
     nav {
-        margin-right: 0px;
+        /*margin-right: 0px;
         margin-left: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 10px;*/
         float: right;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
     footer h3 {
-        font-size: 17px;
+        /*font-size: 17px;*/
         display: inline-block;
         color: #ffffff;
-        padding-left: 10px;
+        /*padding-left: 10px;*/
     }
 }
