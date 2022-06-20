@@ -26,10 +26,10 @@ body {
 
 .header h1 {
     display: inline-block;
-    /*font-size: 40px;*/
+    
     font-size: 2.5rem;
     color: aqua;
-    /*border: 5px coral;*/
+    
     border: 0.315em;
 }
 
@@ -100,8 +100,7 @@ nav {
     margin-bottom: 30px;
     padding: 35px;
     padding-top: 50px;
-    /*display: inline-block;
-    /*width: 100%;*/
+    
 }
 
 
@@ -119,14 +118,7 @@ nav {
     font-size: 20px;
     font-weight: lighter;
 }
-/*.project {
-    display: inline-block;
-    flex-direction: row;
-}
 
-.project p {
-    font-size: 16px;
-}*/
 
 .project-content {
     margin-bottom: 20px;
@@ -135,7 +127,7 @@ nav {
     background-color: black;
     color: #ffffff;
     display: flex;
-    /*flex-direction: row;*/
+    
     align-items: center;
 }
 
@@ -151,12 +143,12 @@ nav {
 }
 
 .project-content img {
-    height: 220px;
+    height: 240px;
     border: solid 4px white;
 }
 
 .first-project img {
-    height: 280px;
+    height: 255px;
 }
 
 .project-content a {
@@ -228,18 +220,10 @@ footer h3 {
     }
     
     .header h1 {
-        /*font-size: 25px;*/
+        
         color: lightskyblue
     }
-    /*.harder li {
-        font-size: 16px;
-    }
-    .header li a {
-        font-size: 18px;
-    }
-    .footer li {
-        font-size: 16px;
-    }*/
+    
     
     .project-content {
         flex-direction: column;
@@ -283,22 +267,14 @@ footer h3 {
     .works h1 {
         font-size: 17px;
     }
-    /*.header li {
-        font-size: 13px;
-        margin-left: 5px;
-    }*/
-    /*.footer li {
-        font-size: 13px;
-    }*/
+   
 
     .project-content a {
         font-size: 17px;
     }
 
     nav {
-        /*margin-right: 0px;
-        margin-left: 5px;
-        padding-bottom: 10px;*/
+        
         float: right;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
@@ -307,9 +283,15 @@ footer h3 {
         margin-right: 3px;
     }
     footer h3 {
-        /*font-size: 17px;*/
+        
         display: inline-block;
         color: #ffffff;
-        /*padding-left: 10px;*/
+        
+}
+}
+
+@media (max-width: 436px) {
+    .email {
+        margin-right: 15px;
     }
 }
