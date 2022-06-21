@@ -163,8 +163,8 @@ nav {
 
 .project-content a:hover {
     background-color: aqua;
-    border-radius: 5px;
-    padding: 3px;
+    border-radius: 3px;
+    /*padding: 3px;*/
     color: black;
     cursor: pointer;
 }
