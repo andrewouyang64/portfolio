@@ -206,13 +206,17 @@ footer h3 {
     margin-left: 1.56rem;
 }
 
-.footer a{
-    color: aqua;
-    text-decoration: none;
+.icon {
+    width: 1.5rem;
 }
 
-.footer a:hover {
-    color: whitesmoke;
+/*.footer a{
+    color: aqua;
+    text-decoration: none;
+}*/
+
+.contact-icon:hover {
+    border-color: whitesmoke;
 }
 @media (max-width: 768px) {
     .header {
@@ -290,8 +294,12 @@ footer h3 {
 }
 }
 
-@media (max-width: 436px) {
-    .email {
+@media (max-width: 460px) {
+    .phone {
         margin-right: 15px;
     }
+    .twitter-share-button {
+        margin-right: 22px;
+    }
+    
 }
